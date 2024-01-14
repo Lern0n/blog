@@ -1,7 +1,6 @@
 import { defaultTheme } from 'vuepress'
 
 export default {
-  base:"/blog/",
   lang: 'zh-CN',
   title: 'zhanyd的博客',
   description: '欢迎来到zhanyd的博客',
@@ -30,12 +29,12 @@ export default {
           text: '网络',
           children: [
               {
-                text: '一张图帮你看懂，在浏览器输入网址回车后，都发生了什么？',
-                link: '/network/一张图帮你看懂，在浏览器输入网址回车后，都发生了什么？.md',
+                text: '攻防演练思考',
+                link: '/network/攻防演练思考.md',
               },
               {
-                text: '在Jekyll中创建一个新的列表页面',
-                link: '/network/在Jekyll中创建一个新的列表页面.md',
+                text: '网络安全实战攻防演练丨防守方案经验分享',
+                link: '/network/网络安全实战攻防演练丨防守方案经验分享.md',
               }
             ],
         },
@@ -43,11 +42,11 @@ export default {
       '/designPatterns/': [
         {
           text: '设计模式',
-          collapsible: true,
+          
           children: [
               {
-                text: '单例模式--我的机器人女友',
-                link: '/designPatterns/单例模式--我的机器人女友.md',
+                text: 'jsnop劫持漏洞的原理和防御',
+                link: '/designPatterns/jsnop劫持漏洞的原理和防御.md',
               }
           ],
         },
